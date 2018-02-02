@@ -1,4 +1,4 @@
-# Algolia-ssr
+# Algolia-SSR
 
 > Nuxt.js project
 
