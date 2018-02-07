@@ -32,7 +32,6 @@ export default {
   async asyncData () {
     searchStore.start()
     searchStore.refresh()
-
     await searchStore.waitUntilInSync()
 
     return { serializedSearchStore: searchStore.serialize() }
